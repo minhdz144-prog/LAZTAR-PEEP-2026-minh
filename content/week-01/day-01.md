@@ -1,42 +1,46 @@
 +++
-title = "Ngày 01 - 15/09/2026"
+title = "Day 01 - 15/09/2026"
 weight = 1
 +++
 
-## Tổng kết công việc Ngày 1
+## Day 1 Summary
 
-Hôm nay mình đã học và thực hành thành công việc thiết lập môi trường làm việc cơ bản và xuất bản website báo cáo.
+Today, I successfully learned and practiced setting up the basic working environment and deploying the reporting website.
 
-### 1. Kiến thức đã học
-- **Quản lý mã nguồn với Git:** Biết cách khởi tạo cấu hình, kết nối code trên máy tính với GitHub.
-- **Xây dựng Website với Hugo:** Hiểu cấu trúc thư mục tĩnh, cách clone code có chứa theme (`submodule`) và cách cấu hình file `config.toml`.
-- **Deploy (Xuất bản) Website:** Biết cách sử dụng GitHub Actions và GitHub Pages để tự động đưa trang web lên mạng.
+### 1. Knowledge Learned
+- **Source code management with Git:** Learned how to initialize configuration and connect local code to GitHub.
+- **Building Website with Hugo:** Understood the static folder structure, how to clone a repository containing a theme (`submodule`), and how to configure the `config.toml` file.
+- **Deploying Website:** Learned how to use GitHub Actions and GitHub Pages to automatically deploy the website to the internet.
 
-### 2. Các lệnh Git thường dùng (Ghi chú)
+### 2. Commonly Used Git Commands (Notes)
 
 ```bash
-# 1. Tải source code từ trên mạng về máy (bắt buộc kèm đuôi này để tải được theme)
+# 1. Clone source code from the internet to local machine (the flag is required to download the theme)
 git clone --recurse-submodules <link-repo>
 
-# 2. Đổi địa chỉ kết nối sang kho lưu trữ (repo) của riêng mình
-git remote set-url origin <link-repo-cua-minh>
+# 2. Change the remote URL to my own repository
+git remote set-url origin <my-repo-link>
 
-# 3. Đưa tất cả các file vừa chỉnh sửa vào hàng đợi (chuẩn bị lưu)
+# 3. Add all modified files to the staging area
 git add .
 
-# 4. Ghi nhận lịch sử chỉnh sửa kèm theo lời nhắn (Bắt buộc phải có dấu ngoặc kép)
-git commit -m "Cập nhật báo cáo ngày 1"
+# 4. Record the commit history with a message (Double quotes are required)
+git commit -m "Update Day 1 report"
 
-# 5. Đẩy toàn bộ code và lịch sử từ máy tính lên GitHub
+# 5. Push all code and history from local machine to GitHub
 git push
 ``` 
-### 3. Khó khăn gặp phải & Cách giải quyết
-```bash
-# Lỗi 1: Windows chặn không cho chạy lệnh Hugo (hugo.exe) do dính chính sách bảo mật hệ thống.
-Cách giải quyết: Đã tìm ra nguyên nhân do tính năng Smart App Control của Windows 11. Xử lý bằng cách tắt giới hạn bảo mật này để chạy được lệnh.
-# Lỗi 2: Quá trình tự động Build web trên GitHub bị báo lỗi X đỏ (Fail).
-Cách giải quyết: Lỗi do GitHub chưa cấp quyền ghi cho bot. Đã vào Settings -> Actions -> General và cấp quyền Read and write permissions thành công.
+
+### 3. Challenges & Solutions
+
+```text
+# Error 1: Windows blocked the execution of the Hugo command (hugo.exe) due to system security policies.
+Solution: Found the root cause to be the Smart App Control feature in Windows 11. Solved by turning off this security restriction to allow the command to run.
+
+# Error 2: The automatic web build process on GitHub Actions failed (red X).
+Solution: The error occurred because GitHub did not grant write permissions to the bot. Solved by going to Settings -> Actions -> General and successfully granting "Read and write permissions".
 ```
-### 4. Kế hoạch ngày mai
-Tiếp tục tìm hiểu sâu hơn về Git Flow (Tạo Branch, Pull Request, và Merge code).
-Hoàn thiện bài thực hành xử lý xung đột (conflict).
+
+### 4. Plans for Tomorrow
+- Continue diving deeper into Git Flow (Creating Branches, Pull Requests, and Merging code).
+- Complete the conflict resolution practice.
