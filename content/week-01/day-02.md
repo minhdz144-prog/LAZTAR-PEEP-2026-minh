@@ -1,9 +1,9 @@
 +++
-title = "Day 02 (Week 2) - September 16, 2026"
+title = "Day 02 (Week 1) - September 16, 2026"
 weight = 2
 +++
 
-## Detailed Work Report: Day 2 - Week 2
+## Detailed Work Report: week 1 - day 2
 
 Today was a highly productive day as I completed the entire process of building a personal Portfolio website from scratch. Instead of using pre-made templates, I built the UI using Next.js, integrated real data from my personal CV, and established a basic CI/CD pipeline with Vercel.
 

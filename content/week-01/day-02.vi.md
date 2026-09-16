@@ -1,9 +1,9 @@
 +++
-title = "Ngày 02 (Tuần 2) - 16/09/2026"
+title = "Ngày 02 (Tuần 1) - 16/09/2026"
 weight = 2
 +++
 
-## Báo cáo công việc chi tiết: Ngày 2 - Tuần 2
+## Báo cáo công việc chi tiết: Tuần  1 - Ngày 2
 
 Hôm nay là một ngày làm việc năng suất khi mình hoàn thiện toàn bộ quy trình xây dựng trang Portfolio cá nhân từ con số 0. Thay vì sử dụng template có sẵn, mình đã tự dựng giao diện với Next.js, tích hợp dữ liệu thật từ CV cá nhân và thiết lập luồng CI/CD cơ bản lên Vercel.
 
