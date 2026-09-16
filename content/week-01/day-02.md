@@ -48,3 +48,15 @@ Today was a highly productive day as I completed the entire process of building 
 - Thoroughly review the theoretical questions for Week 2 (especially distinguishing between CSR, SSR, SSG, and the inner workings of the Virtual DOM).
 - Conduct a live demo for the Mentor, showcasing the page load speed, responsiveness, and codebase architecture.
 - Read official documentation regarding Next.js API Routes to prepare for more complex upcoming tasks.
+
+# Challenge 4: Resolving Git Source Code Conflict (Merge Conflict)
+- Symptom: During a branch merge practice, the Terminal threw a red "MERGE CONFLICT" error because the same line of code was modified in both branches, pausing the merge process.
+- Solution (Tool & Execution):
+  1. Tool used: I utilized the built-in visual Merge Editor in my IDE, **Visual Studio Code (VS Code)**.
+  2. Detailed Execution:
+     - Opened the conflicted file in VS Code. The editor highlighted the conflicting code blocks along with Git's conflict markers (<<<<<<<, =======, >>>>>>>).
+     - Reviewed and analyzed the difference between the "Current Change" (code in the currently checked-out branch) and the "Incoming Change" (code from the branch being merged).
+     - Used VS Code's UI buttons (or edited manually) to select "Accept Current Change", "Accept Incoming Change", or "Accept Both Changes" depending on the desired code logic.
+     - Cleaned up the file to ensure no residual Git markers were left behind and pressed Ctrl + S to save.
+     - Ran `git add .` in the Terminal to stage the resolved file.
+     - Finally, executed `git commit -m "Resolved merge conflict"` to conclude and successfully finish the merge process.

@@ -48,3 +48,15 @@ Hôm nay là một ngày làm việc năng suất khi mình hoàn thiện toàn 
 - Ôn tập kỹ bộ câu hỏi lý thuyết Tuần 2 (đặc biệt là phân biệt CSR, SSR, SSG và cơ chế hoạt động của Virtual DOM).
 - Trực tiếp Demo tốc độ tải trang, Responsive và giải thích cấu trúc code dự án cho Mentor.
 - Đọc thêm tài liệu về Next.js API Routes để chuẩn bị cho các task phức tạp hơn.
+
+# Bài toán 4: Xử lý xung đột mã nguồn (Merge Conflict) trong Git
+- Tình trạng: Khi thực hành gộp nhánh (merge), Terminal báo lỗi "MERGE CONFLICT" chữ đỏ do 2 nhánh cùng chỉnh sửa trên một dòng code, khiến quá trình merge bị tạm dừng.
+- Cách giải quyết (Công cụ & Thao tác):
+  1. Công cụ sử dụng: Mình sử dụng trình giải quyết xung đột trực quan (Merge Editor) được tích hợp sẵn của IDE **Visual Studio Code (VS Code)**.
+  2. Thao tác xử lý chi tiết:
+     - Mở file bị báo lỗi conflict trong VS Code. Trình soạn thảo sẽ highlight các vùng mã bị xung đột cùng với các ký tự đánh dấu của Git (<<<<<<<, =======, >>>>>>>).
+     - Đọc và phân tích sự khác biệt giữa "Current Change" (Code của nhánh hiện tại đang đứng) và "Incoming Change" (Code từ nhánh đang muốn gộp vào).
+     - Dùng các nút bấm UI của VS Code (hoặc sửa bằng tay) chọn "Accept Current Change", "Accept Incoming Change" hoặc "Accept Both Changes" tùy vào logic code mong muốn giữ lại.
+     - Kiểm tra file sạch sẽ, không còn các ký tự đánh dấu thừa. Bấm Ctrl + S để lưu file.
+     - Mở Terminal chạy lệnh `git add .` để xác nhận đã xử lý xong file đó.
+     - Cuối cùng chạy lệnh `git commit -m "Resolved merge conflict"` để chốt hạ và hoàn tất quá trình gộp nhánh.
