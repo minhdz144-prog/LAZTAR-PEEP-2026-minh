@@ -8,7 +8,7 @@ chapter = true
 
 Ghi chú công việc thực tập PEEP 2026 tuần đầu tiên. Tuần này mình làm việc tại văn phòng 4 ngày.
 
-- [Ngày 01 - Thứ Ba - Cả ngày](day-01/)
-- [Ngày 02 - Thứ Tư - Remote](day-02/)
-- [Ngày 03 - Thứ Năm - Cả ngày](day-03/)
-- [Ngày 04 - Thứ Sáu - Remote](day-04/)
+- [Ngày 01 - Thứ Ba - On-Site](15/9/2026)
+- [Ngày 02 - Thứ Tư - Remote](16/9/2026)
+- [Ngày 03 - Thứ Năm - On-Site](17/9/2026)
+- [Ngày 04 - Thứ Sáu - Remote](18/9/2026)
