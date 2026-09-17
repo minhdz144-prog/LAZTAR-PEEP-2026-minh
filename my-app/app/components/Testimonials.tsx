@@ -50,6 +50,7 @@ export default function Testimonials() {
                                         src={testimonial.avatarUrl}
                                         alt={testimonial.name}
                                         fill
+                                        sizes="48px"
                                         className="rounded-full object-cover ring-2 ring-white"
                                     />
                                 </div>

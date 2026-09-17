@@ -123,7 +123,7 @@ export const testimonialsData: Testimonial[] = [
         name: "Nguyễn Thị Lan",
         role: "Product Manager, StartupX",
         content: "Giải pháp hoàn hảo cho doanh nghiệp vừa và nhỏ. Dễ dùng, tính năng đầy đủ và giá cả hợp lý.",
-        avatarUrl: "https://images.unsplash.com/photo-1494790108755-2616b6cdef11?w=100&q=80",
+        avatarUrl: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80",
     },
     {
         id: 3,
