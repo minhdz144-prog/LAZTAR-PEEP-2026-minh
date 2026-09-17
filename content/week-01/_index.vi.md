@@ -11,4 +11,4 @@ Ghi chú công việc thực tập PEEP 2026 tuần đầu tiên. Tuần này m�
 - [Ngày 01 - Thứ Ba - Cả ngày](day-01/)
 - [Ngày 02 - Thứ Tư - Remote](day-02/)
 - [Ngày 03 - Thứ Năm - Cả ngày](day-03/)
-- [Ngày 04 - Thứ Sáu - Cả ngày](day-04/)
+- [Ngày 04 - Thứ Sáu - Remote](day-04/)
