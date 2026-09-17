@@ -14,6 +14,14 @@ Hôm nay mình tiếp tục phát triển kỹ năng với Next.js và Tailwind 
   - Ứng dụng kỹ thuật truyền dữ liệu động thông qua Mock Data (`mockData.ts`) kết hợp với hàm `map()` của React, giúp giao diện tái sử dụng linh hoạt và code ngắn gọn hơn.
   - Khắc phục các cảnh báo hiệu năng hình ảnh (Image Optimization) trên trình duyệt bằng cách thêm thuộc tính `sizes` cho `<Image fill />`.
 
+- **Nâng cấp toàn diện giao diện Portfolio (Orbit Light Theme):**
+  - Tái cấu trúc (Refactor) toàn bộ giao diện Portfolio từ Dark Theme sang Light Theme tĩnh, lấy cảm hứng từ template Orbit (Colorlib) chuyên nghiệp.
+  - Tích hợp thành công bộ icon hiện đại `lucide-react` để thay thế cho các bộ icon cũ, giúp website tải nhanh và sắc nét hơn.
+  - Tối ưu hóa hệ thống lưới (Grid layout) và tạo các hiệu ứng hover (micro-interactions) mượt mà bằng Tailwind CSS.
+  - Cập nhật định hướng nghề nghiệp trên toàn website thành **Full-stack Developer (Front-end & Back-end)** để phản ánh đúng năng lực và mục tiêu.
+  - Cấu hình lại `next.config.ts` (Remote Patterns) để cho phép hiển thị ảnh an toàn từ nguồn bên ngoài (`images.unsplash.com`).
+  - Sửa lỗi tương thích Server Component trong Next.js App Router (lỗi truyền hàm `onError` xuống Client) bằng cách sử dụng directive `"use client"`.
+
 - **Quản lý Source Code & Xử lý sự cố Git:**
   - Quy hoạch lại cấu trúc mã nguồn: Tách thành công các dự án `my-app` (Landing Page) và `portfolio` đang nằm chung trong Monorepo ra thành các Repository riêng biệt trên GitHub để dễ quản lý.
   - Sửa lỗi lịch sử Git: Ứng dụng Interactive Rebase (`git rebase -i`) và Filter-Branch script để ghi đè (amend) thông tin tác giả (author/committer) bị sai trong các commit cũ, đảm bảo tính chuyên nghiệp cho lịch sử mã nguồn.
@@ -22,6 +30,7 @@ Hôm nay mình tiếp tục phát triển kỹ năng với Next.js và Tailwind 
   - Ngắt kết nối các dự án bị lỗi cấu hình cũ trên Vercel.
   - Khởi tạo dự án mới trên Vercel và liên kết thành công với các Repository độc lập vừa bóc tách.
   - Cấu hình custom domain thành công (`portfolio-minhdz144.vercel.app`).
+  - Khắc phục triệt để lỗi "Root Directory does not exist" trên Vercel sau khi tách Monorepo bằng cách cấu hình lại thư mục gốc trên Dashboard.
 
 ### 2. Source Code & Live Demo (Đường dẫn GitHub)
 
@@ -33,7 +42,7 @@ Theo yêu cầu, đây là đường dẫn mã nguồn của 2 dự án đã đ�
    - GitHub Repo: [https://github.com/minhdz144-prog/portfolio-Minh](https://github.com/minhdz144-prog/portfolio-Minh)
    - Live Demo: [https://portfolio-minhdz144.vercel.app](https://portfolio-minhdz144.vercel.app)
 
-### 3. Tài liệu lý thuyết đã tìm hiểu
+### 3.lý thuyết
 
 - Ghi chú lý thuyết và kiến thức: [Google Docs](https://docs.google.com/document/d/165sNM7znFS9uW2Y5OKRvPK-hXXvIbDK5aSpcgVbyJuE/edit?usp=drive_link)
 
