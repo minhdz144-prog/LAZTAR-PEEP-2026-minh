@@ -13,7 +13,7 @@ chapter: false
 
 ### Ghi chú PEEP 2026
 
-Đây là trang ghi chú cho giai đoạn trải nghiệm đầu tiên của chương trình **Product Engineering Experience Program 2026 - Software Engineer** tại Công ty trách nhiệm hữu hạn LAZTAR - Phần Mềm & Giải Pháp Số. ([Source Template](https://github.com/SharonNg1029/LAZTAR-PEEP2026-Trainee-Notes))
+Đây là trang ghi chú cho giai đoạn trải nghiệm đầu tiên của chương trình **Product Engineering Experience Program 2026 - Software Engineer** tại Công ty trách nhiệm hữu hạn LAZTAR - Phần Mềm & Giải Pháp Số. ([GitHub Repository](https://github.com/minhdz144-prog/LAZTAR-PEEP-2026-minh) | [Live Site](https://minhdz144-prog.github.io/LAZTAR-PEEP-2026-minh/))
 
 PEEP dành cho sinh viên muốn theo đuổi nghề kỹ sư phần mềm thông qua môi trường phát triển sản phẩm thực tế, mentoring, review kỹ thuật, làm việc nhóm và giao tiếp chuyên nghiệp.
 
