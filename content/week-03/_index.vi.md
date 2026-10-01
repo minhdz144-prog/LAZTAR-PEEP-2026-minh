@@ -11,3 +11,4 @@ Ghi chú công việc thực tập PEEP 2026 tuần thứ ba (28/09/2026 - 02/10
 - [Ngày 01 - Thứ Hai - Remote (28/09/2026)](day-01)
 - [Ngày 02 - Thứ Ba - On-Site (29/09/2026)](day-02)
 - [Ngày 03 - Thứ Tư - On-Site (30/09/2026)](day-03)
+- [Ngày 04 - Thứ Năm - Remote (01/10/2026)](day-04)
