@@ -47,5 +47,6 @@ PEEP is designed for students who want to grow into software engineers through r
 4. [Week 03](week-03/)
 5. [Week 04](week-04/)
 6. [Week 05](week-05/)
+7. [Week 06](week-06/)
 
 </div>
