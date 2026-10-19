@@ -5,7 +5,7 @@ weight = 1
 
 ## Báo cáo công việc chi tiết: Tuần 6 - Ngày 1
 
-Hôm nay mình làm việc Onsite (tại văn phòng công ty). Đây là ngày cột mốc đặc biệt quan trọng trong toàn bộ hành trình thực tập: **Tham gia buổi Báo cáo & Demo Milestone Đồ án Mini-WMS bảo vệ kết quả 6 tuần học việc chương trình PEEP 2026**, đồng thời tiếp nhận, thực hiện và hoàn thiện **Phiếu Tự Đánh Giá Học Việc xét duyệt chuyển tiếp lên vị trí Software Engineer Intern**.
+Hôm nay mình làm việc Remote (từ xa). Đây là ngày cột mốc đặc biệt quan trọng trong toàn bộ hành trình thực tập: **Tham gia buổi Báo cáo & Demo Milestone Đồ án Mini-WMS bảo vệ kết quả 6 tuần học việc chương trình PEEP 2026**, đồng thời tiếp nhận, thực hiện và hoàn thiện **Phiếu Tự Đánh Giá Học Việc xét duyệt chuyển tiếp lên vị trí Software Engineer Intern**.
 
 ---
 

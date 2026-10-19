@@ -5,7 +5,7 @@ weight = 1
 
 ## Detailed Work Report: Week 6 - Day 1
 
-Today I worked Onsite at the company office. This marks a pivotal milestone day in my entire internship journey: **Participating in the Mini-WMS Milestone Defense & Live Demo concluding the 6-week PEEP 2026 apprenticeship**, while simultaneously receiving, executing, and finalizing the **PEEP Self-Evaluation Review for official promotion to Software Engineer Intern**.
+Today I worked Remote. This marks a pivotal milestone day in my entire internship journey: **Participating in the Mini-WMS Milestone Defense & Live Demo concluding the 6-week PEEP 2026 apprenticeship**, while simultaneously receiving, executing, and finalizing the **PEEP Self-Evaluation Review for official promotion to Software Engineer Intern**.
 
 ---
 
