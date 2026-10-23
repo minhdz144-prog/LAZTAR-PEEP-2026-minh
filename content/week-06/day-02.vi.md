@@ -5,7 +5,7 @@ weight = 2
 
 ## Báo cáo công việc chi tiết: Tuần 6 - Ngày 2
 
-Hôm nay mình làm việc Remote (từ xa). Trọng tâm công việc trong ngày là tiếp tục tinh chỉnh và hoàn thiện chi tiết toàn bộ các tiêu chí và minh chứng kỹ thuật trong Phiếu Tự Đánh Giá Học Việc cá nhân (`Phieu_Tu_Danh_Gia_Peep_Giang_Van_Minh.xlsx`), đồng thời nghiên cứu sâu các cơ chế nâng cao của Git Flow và rà soát các bài toán tối ưu hóa Backend sau buổi demo ngày 19/10.
+Hôm nay mình làm việc Remote (từ xa). Trọng tâm công việc trong ngày là tiếp tục tinh chỉnh và hoàn thiện chi tiết toàn bộ các tiêu chí và minh chứng kỹ thuật trong Phiếu Tự Đánh Giá Học Việc cá nhân (`Phieu_Tu_Danh_Gia_Peep_GiangVanMinh.xlsx`), đồng thời nghiên cứu sâu các cơ chế nâng cao của Git Flow và rà soát các bài toán tối ưu hóa Backend sau buổi demo ngày 19/10.
 
 ---
 

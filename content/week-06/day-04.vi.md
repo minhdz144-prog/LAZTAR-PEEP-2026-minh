@@ -13,12 +13,12 @@ Hôm nay mình làm việc Onsite (tại văn phòng công ty). Đây là ngày 
 
 - **Tham gia Phiên Đánh Giá & Phỏng Vấn 1-1 Tổng Kết Cuối Cùng:**
   - Trực tiếp báo cáo, giải trình và bảo vệ toàn bộ hành trình học việc 6 tuần (từ ngày 15/09 đến 23/10/2026) trước anh Mentor Huy Nguyễn và Team Lead Khoan Tạ.
-  - Đối chiếu minh bạch giữa **Phiếu Tự Đánh Giá Học Việc** cá nhân (`Phieu_Tu_Danh_Gia_Peep_Giang_Van_Minh.xlsx` với điểm tự chấm vững vàng `4.01 / 5.0` ~ `80.2 / 100 điểm`) và **Bảng Phân Công & Đóng Góp Kỹ Thuật Dự Án Mini-WMS** đã được thống nhất.
+  - Đối chiếu minh bạch giữa **Phiếu Tự Đánh Giá Học Việc** cá nhân (`Phieu_Tu_Danh_Gia_Peep_GiangVanMinh.xlsx` với điểm tự chấm vững vàng `3.93 / 5.0` ~ `78.6 / 100 điểm`) và **Bảng Phân Công & Đóng Góp Kỹ Thuật Dự Án Mini-WMS** đã được thống nhất.
   - Báo cáo và làm rõ các đóng góp kỹ thuật cốt lõi trong suốt dự án:
     - **Nền móng Kiến trúc Backend:** Dựng toàn bộ khung sườn NestJS, kết nối CSDL PostgreSQL qua Prisma ORM, khởi tạo 20 bảng cơ sở dữ liệu ban đầu, cấu hình Swagger UI (`/api-docs`) phục vụ tra cứu API tập trung.
     - **Hệ thống Master Data & Service dùng chung:** Thiết kế trọn bộ API Master Data và xây dựng `UomConversionService` (quy đổi đa đơn vị tính nông sản chuẩn xác) cùng hàm polyfill xử lý BigInt JSON trong `main.ts`.
     - **Chuỗi Nghiệp vụ Kho Vận Phức Tạp:** Hiện thực hóa các API Nhập kho Inbound, Cất hàng Putaway, Điều chuyển Transfer, Xuất kho Outbound (thuật toán cấp phát FEFO, cơ chế giữ chỗ tồn kho Stock Reservation chống âm kho, cân Catch Weight) và phân hệ Trả hàng & Thẩm định QC.
-    - **Đóng góp Kiểm thử Thực địa & UI/UX:** Chủ động xây dựng Báo cáo Thẩm định UI/UX toàn diện (`UI_UX_WAREHOUSE_AUDIT_REPORT.md` với hơn 30 ảnh thực tế), bắt 3 lỗi P0 Blocker của Frontend và đề xuất giải pháp máy trạng thái **Outbound Next Action** được merge trực tiếp vào nhánh chính `PEEP1` (**commit `840076e`**).
+    - **Đóng góp Kiểm thử Thực địa & UI/UX:** Chủ động xây dựng Báo cáo Thẩm định UI/UX toàn diện (`UI_UX_WAREHOUSE_AUDIT_REPORT.md` với 27 ảnh thực tế), bắt 3 lỗi P0 Blocker của Frontend và đề xuất giải pháp máy trạng thái **Outbound Next Action** được merge trực tiếp vào nhánh chính `PEEP1` (**commit `840076e`**).
 
 - **Thành Thật Trình Bày Bài Học Kinh Nghiệm & Thái Độ Trưởng Thành:**
   - Cởi mở chia sẻ bài học đắt giá về việc quản lý và kiểm thử dữ liệu thực tế trên cơ sở dữ liệu: Sau đợt được Team Lead Khoan Tạ nhắc nhở rà soát về ranh giới giữa dữ liệu mẫu (seed/mock) và dữ liệu động, bản thân đã nghiêm túc tự kiểm tra lại toàn bộ Controller/Service, sử dụng đa kênh công cụ (Swagger UI, Postman, Prisma Studio, scratch test scripts) để đảm bảo 100% dữ liệu nghiệp vụ đọc/ghi bất biến xuống PostgreSQL.

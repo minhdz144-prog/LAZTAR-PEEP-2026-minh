@@ -13,12 +13,12 @@ Today I worked Onsite at the company office. This marks the defining milestone c
 
 - **Final 1-on-1 Evaluation & Review Session:**
   - Delivered a comprehensive review defending my entire 6-week apprenticeship journey (09/15/2026 - 10/23/2026) before Mentor Huy Nguyen and Team Lead Khoan Ta.
-  - Transparently aligned my **PEEP Self-Evaluation Sheet** (`Phieu_Tu_Danh_Gia_Peep_Giang_Van_Minh.xlsx`, scored at a grounded `4.01 / 5.0` ~ `80.2 / 100`) with the unified **Project Task Allocation Matrix**.
+  - Transparently aligned my **PEEP Self-Evaluation Sheet** (`Phieu_Tu_Danh_Gia_Peep_GiangVanMinh.xlsx`, scored at a grounded `3.93 / 5.0` ~ `78.6 / 100`) with the unified **Project Task Allocation Matrix**.
   - Defended core technical contributions throughout the Mini-WMS project:
     - **Foundational Backend Architecture:** Established the core NestJS framework, PostgreSQL integration via Prisma ORM, initial 20-table database schema, and centralized Swagger UI (`/api-docs`).
     - **Master Data & Shared Utilities:** Designed comprehensive Master Data APIs, authored `UomConversionService` for multi-unit agricultural conversions, and implemented the BigInt JSON serialization polyfill in `main.ts`.
     - **Complex Operational Warehouse Flows:** Implemented APIs across Inbound Receiving, Putaway dual-entry ledger transactions, Internal Transfers, Outbound Processing (FEFO allocation algorithm, Stock Reservation mechanism preventing negative stock, Catch Weight scaling), and Returns & QC Inspection.
-    - **Operational Walkthrough & UI/UX Audit:** Authored the comprehensive UI/UX Audit Report (`UI_UX_WAREHOUSE_AUDIT_REPORT.md` with 30+ production screenshots), discovered 3 P0 Frontend blockers, and formulated the **Outbound Next Action** state machine merged into `PEEP1` (**commit `840076e`**).
+    - **Operational Walkthrough & UI/UX Audit:** Authored the comprehensive UI/UX Audit Report (`UI_UX_WAREHOUSE_AUDIT_REPORT.md` with 27 production screenshots), discovered 3 P0 Frontend blockers, and formulated the **Outbound Next Action** state machine merged into `PEEP1` (**commit `840076e`**).
 
 - **Candid Reflection on Lessons Learned & Professional Growth:**
   - Openly discussed valuable lessons learned regarding real database versus mock/seed data management: Following initial review feedback from Team Lead Khoan Ta, independently audited all controllers and services, leveraging multi-channel validation tools (Swagger UI, Postman, Prisma Studio, scratch test scripts) to guarantee 100% immutable operational persistence on PostgreSQL.

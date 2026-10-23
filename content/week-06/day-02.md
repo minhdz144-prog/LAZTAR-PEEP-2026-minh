@@ -5,7 +5,7 @@ weight = 2
 
 ## Detailed Work Report: Week 6 - Day 2
 
-Today I worked Remote. The primary focus of the day was refining technical evidence and finalizing the self-evaluation review sheet (`Phieu_Tu_Danh_Gia_Peep_Giang_Van_Minh.xlsx`), conducting in-depth research into advanced Git Flow pull request mechanics, and analyzing post-demo architectural optimizations.
+Today I worked Remote. The primary focus of the day was refining technical evidence and finalizing the self-evaluation review sheet (`Phieu_Tu_Danh_Gia_Peep_GiangVanMinh.xlsx`), conducting in-depth research into advanced Git Flow pull request mechanics, and analyzing post-demo architectural optimizations.
 
 ---
 

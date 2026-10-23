@@ -29,8 +29,8 @@ Today I worked Remote. This marks a pivotal milestone day in my entire internshi
     - Highlighted out-of-scope contributions in auditing UI/UX and formulating Next Action logic for the Frontend team.
   - **Maintained Humility & Constructive Attitude:**
     - Openly acknowledged lessons learned from Team Lead Khoan Ta's prior feedback regarding mock/seed data versus live DB data, reflecting this honestly in the quality score and detailing corrective measures taken.
-    - Kept professional image and soft skill ratings modest and grounded (total self-assessed score: **`4.01 / 5.0`**, or **`80.2 / 100`** – solid, honest, and free of arrogance).
-  - Formatted the spreadsheet on WPS Office (enabled text wrapping, vertical center alignment, widened evidence column), saving as `Phieu_Tu_Danh_Gia_Peep_Giang_Van_Minh.xlsx` ready for formal submission.
+    - Kept professional image and soft skill ratings modest and grounded (total self-assessed score: **`3.93 / 5.0`**, or **`78.6 / 100`** – solid, honest, and free of arrogance).
+  - Formatted the spreadsheet on WPS Office (enabled text wrapping, vertical center alignment, widened evidence column), saving as `Phieu_Tu_Danh_Gia_Peep_GiangVanMinh.xlsx` ready for formal submission.
 
 - **Audited Recent Merges on Main Branch `origin/PEEP1`:**
   - Analyzed newly merged commits on `PEEP1` (commit `7739e9f` integrating `peep1-deploy`, `840076e` Outbound Next Action, Render & Vercel CORS configuration, and Return Window Policy).
@@ -40,6 +40,6 @@ Today I worked Remote. This marks a pivotal milestone day in my entire internshi
 
 ### 2. Next Steps
 
-- Submit the finalized evaluation file `Phieu_Tu_Danh_Gia_Peep_Giang_Van_Minh.xlsx` to Mentor Huy Nguyen and prepare for the 1-on-1 review discussion.
+- Submit the finalized evaluation file `Phieu_Tu_Danh_Gia_Peep_GiangVanMinh.xlsx` to Mentor Huy Nguyen and prepare for the 1-on-1 review discussion.
 - Collaborate with teammates on final codebase cleanup (pruning debug logs, formatting) and packaging project documentation.
 - Deepen knowledge in Database Indexing, Query Optimization, and Distributed System Architecture, preparing for new responsibilities upon transitioning to official Software Engineer Intern at LAZTAR.

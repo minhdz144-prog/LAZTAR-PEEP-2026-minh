@@ -29,8 +29,8 @@ Hôm nay mình làm việc Remote (từ xa). Đây là ngày cột mốc đặc 
     - Nêu bật sáng kiến xây dựng báo cáo kiểm toán UI/UX và đề xuất luồng Next Action hỗ trợ team Frontend.
   - **Thể hiện tinh thần cầu thị và khiêm tốn:** 
     - Trung thực ghi nhận bài học kinh nghiệm từ đợt Team Lead Khoan Tạ nhắc nhở rà soát về việc dữ liệu API còn lẫn dữ liệu mẫu/mock data, phản ánh đúng vào tiêu chí chất lượng và nêu rõ cách khắc phục dứt điểm bằng việc kiểm tra 100% dữ liệu thực trên PostgreSQL.
-    - Điều chỉnh điểm số ở các tiêu chí mềm và hình ảnh chuyên nghiệp ở mức vừa phải, khiêm nhường (tổng điểm tự đánh giá đạt **`4.01 / 5.0`**, tương đương **`80.2 / 100 điểm`** – chuẩn mực, vững vàng và không tự cao).
-  - Tinh chỉnh định dạng bảng tính trên WPS Office (bật ngắt dòng Wrap Text, căn giữa lề dọc, mở rộng cột dẫn chứng cho thoáng đẹp), lưu file chuẩn quy ước `Phieu_Tu_Danh_Gia_Peep_Giang_Van_Minh.xlsx` sẵn sàng nộp lại cho Mentor.
+    - Điều chỉnh điểm số ở các tiêu chí mềm và hình ảnh chuyên nghiệp ở mức vừa phải, khiêm nhường (tổng điểm tự đánh giá đạt **`3.93 / 5.0`**, tương đương **`78.6 / 100 điểm`** – chuẩn mực, vững vàng và không tự cao).
+  - Tinh chỉnh định dạng bảng tính trên WPS Office (bật ngắt dòng Wrap Text, căn giữa lề dọc, mở rộng cột dẫn chứng cho thoáng đẹp), lưu file chuẩn quy ước `Phieu_Tu_Danh_Gia_Peep_GiangVanMinh.xlsx` sẵn sàng nộp lại cho Mentor.
 
 - **Rà soát Cập nhật Nhánh Chính `origin/PEEP1`:**
   - Kiểm tra các commit mới nhất vừa được merge vào nhánh chính `PEEP1` (commit `7739e9f` tích hợp `peep1-deploy`, `840076e` nâng cấp Outbound Next Action, cấu hình triển khai Render & Vercel CORS, chính sách thời hạn trả hàng tối đa Return Window Policy).
@@ -40,6 +40,6 @@ Hôm nay mình làm việc Remote (từ xa). Đây là ngày cột mốc đặc 
 
 ### 2. Kế hoạch tiếp theo
 
-- Gửi file Phiếu Tự Đánh Giá hoàn chỉnh `Phieu_Tu_Danh_Gia_Peep_Giang_Van_Minh.xlsx` cho anh Mentor Huy Nguyễn và chuẩn bị cho buổi phỏng vấn đánh giá 1-1.
+- Gửi file Phiếu Tự Đánh Giá hoàn chỉnh `Phieu_Tu_Danh_Gia_Peep_GiangVanMinh.xlsx` cho anh Mentor Huy Nguyễn và chuẩn bị cho buổi phỏng vấn đánh giá 1-1.
 - Phối hợp cùng các thành viên trong nhóm dọn dẹp mã nguồn (code cleanup), gỡ bỏ các console log dư thừa và đóng gói tài liệu bàn giao kỹ thuật của dự án Mini-WMS.
 - Tiếp tục củng cố kiến thức chuyên sâu về tối ưu hóa cơ sở dữ liệu (Database Indexing, Query Optimization) và kiến trúc hệ thống phân tán, sẵn sàng tiếp nhận các thử thách mới khi chuyển tiếp lên vị trí Intern chính thức tại LAZTAR.
